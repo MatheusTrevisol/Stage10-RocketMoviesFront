@@ -51,6 +51,7 @@ function AuthProvider({children}) {
       localStorage.setItem("@rocketmovies:user", JSON.stringify(user))
 
       setData({ user, token: data.token});
+
       alert("Perfil atualizado com sucesso!")
     } catch(e) {
       if(e.response) {

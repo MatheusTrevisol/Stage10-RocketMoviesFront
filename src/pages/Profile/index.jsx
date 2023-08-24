@@ -48,11 +48,6 @@ export function Profile() {
     setAvatar(avatarPreview)
   };
 
-  useEffect(() => {
-    setOldPassword("");
-    setNewPassword("");
-  }, [old_password, newPassword])
-
   return (
     <Container>
       <Header>
