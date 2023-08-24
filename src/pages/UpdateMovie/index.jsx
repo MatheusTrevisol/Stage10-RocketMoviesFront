@@ -54,7 +54,7 @@ export function UpdateMovie() {
 
       return response.data;
     } catch (error) {
-      console.log(error);
+      //
     }
   }
 
@@ -96,7 +96,7 @@ export function UpdateMovie() {
       alert("Filme deletado com sucesso.");
       navigate('/');
     } catch (error) {
-      console.log(error)
+      //
     }
   };
 
